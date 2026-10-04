@@ -1,0 +1,51 @@
+body {
+    background-color: green;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+a {
+    color: gray;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.float-left {
+    float: left;
+    width: 280px;
+    height: auto;
+    margin: 10px 20px 10px 0;
+    border: 2px solid gray;
+}
+
+.float-right {
+    float: right;
+    width: 280px;
+    height: auto;
+    margin: 10px 0 10px 20px;
+    border: 2px solid gray;
+}
+
+p {
+    clear: none;
+    text-align: justify;
+}
+
+.p1 {
+    color: maroon;
+    font-weight: bold;
+}
+
+.p2 {
+    font-style: italic;
+}
+
+.p3 .first-word {
+    color: red;
+}
